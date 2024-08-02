@@ -45,7 +45,7 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 ### 5. Resultado
 Dataset Analisado para o desafio: datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv
 -   Avg. wQL = 0.259, o que indica que o modelo é bem preciso.
--   MAPE = 1.803. O erro percentual médio absoluto (MAPE) é o erro percentual (diferença percentual entre o valor médio previsto e o valor real) calculado em média em todos os pontos de tempo. Um valor menor indica um modelo mais preciso com MAPE=0 como um modelo -   -   perfeito e sem erros. Como nesse modelo o MAPE foi de 1.803, podemos considerar que não é um modelo perfeito e apresenta erros.
+-   MAPE = 1.803. O erro percentual médio absoluto (MAPE) é o erro percentual (diferença percentual entre o valor médio previsto e o valor real) calculado em média em todos os pontos de tempo. Um valor menor indica um modelo mais preciso com MAPE=0 como um modelo perfeito e sem erros. Como nesse modelo o MAPE foi de 1.803, podemos considerar que não é um modelo perfeito e apresenta erros.
 -   WAPE = 0.378. O erro percentual absoluto ponderado (WAPE) mede o desvio geral dos valores previstos em relação aos valores observados e é definido pela soma do erro absoluto normalizado pela soma da meta absoluta. Um valor mais baixo indica um modelo mais preciso com WAPE=0 como um modelo perfeito e sem erros. Como nesse modelo o WAPE foi de 0.378, pode-er considerar que é como um modelo perfeito e sem erros.
 -   RMSE = 29.146, indicando uma média quadrada dos erros quadrados médios alta, o que dá a entender que o modelo possui erros.
 -   MASE = 1.393, indica o erro médio em escala absoluta, como nosso valor deu maior que 1, é um modelo estimado como pior que a linha de base.
