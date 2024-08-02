@@ -42,12 +42,38 @@ Antes de começar, certifique-se de ter uma conta na AWS. Se precisar de ajuda p
 -   Exporte os resultados e analise as previsões geradas.
 -   Documente suas conclusões e qualquer insight obtido a partir das previsões.
 
-### 5. Resultado
-Dataset Analisado para o desafio: datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv
--   Avg. wQL = 0.259, o que indica que o modelo é bem preciso.
--   MAPE = 1.803. O erro percentual médio absoluto (MAPE) é o erro percentual (diferença percentual entre o valor médio previsto e o valor real) calculado em média em todos os pontos de tempo. Um valor menor indica um modelo mais preciso com MAPE=0 como um modelo perfeito e sem erros. Como nesse modelo o MAPE foi de 1.803, podemos considerar que não é um modelo perfeito e apresenta erros.
--   WAPE = 0.378. O erro percentual absoluto ponderado (WAPE) mede o desvio geral dos valores previstos em relação aos valores observados e é definido pela soma do erro absoluto normalizado pela soma da meta absoluta. Um valor mais baixo indica um modelo mais preciso com WAPE=0 como um modelo perfeito e sem erros. Como nesse modelo o WAPE foi de 0.378, pode-er considerar que é como um modelo perfeito e sem erros.
--   RMSE = 29.146, indicando uma média quadrada dos erros quadrados médios alta, o que dá a entender que o modelo possui erros.
--   MASE = 1.393, indica o erro médio em escala absoluta, como nosso valor deu maior que 1, é um modelo estimado como pior que a linha de base.
+### 5. Resultado do DataSet 🎯🎯
+Resultado da Análise
+Dataset analisado: datasets/dataset-1000-com-preco-variavel-e-renovacao-estoque.csv
+
+Métricas de desempenho do modelo:
+
+Média wQL: 0,259
+
+Isso indica que o modelo possui uma boa precisão.
+MAPE (Erro Percentual Médio Absoluto): 1,803
+
+O MAPE mede a diferença percentual média entre os valores previstos e os reais. Um valor menor indica um modelo mais preciso, sendo MAPE=0 o ideal. Com um MAPE de 1,803, podemos afirmar que o modelo não é perfeito e apresenta erros.
+WAPE (Erro Percentual Absoluto Ponderado): 0,378
+
+O WAPE avalia o desvio geral entre os valores previstos e os observados, normalizando pelo total da meta absoluta. Um valor menor é desejável, com WAPE=0 indicando perfeição. Com um WAPE de 0,378, o modelo é considerado excelente e praticamente sem erros.
+RMSE (Erro Quadrático Médio): 29,146
+
+Esse valor representa a raiz da média dos erros quadrados, sugerindo que o modelo possui erros significativos.
+MASE (Erro Médio em Escala Absoluta): 1,393
+
+Um MASE maior que 1 indica que o modelo é inferior à linha de base. Neste caso, o valor de 1,393 sugere que o desempenho do modelo é insatisfatório.
+
+Esses resultados destacam a precisão relativa do modelo em algumas métricas, mas também indicam áreas onde ele pode ser melhorado para reduzir os erros.
+
+
+Agradeço a oportunidade!!!
+
+
+
+
+
+
+
 
   
